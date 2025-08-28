@@ -1,4 +1,4 @@
-export const config = { runtime: 'nodejs20.x' };
+export const config = { runtime: 'nodejs' };
 import { pool } from '../../lib/db.js';
 import { requireAuth } from '../../lib/auth.js';
 import { created, error } from '../../lib/utils.js';
