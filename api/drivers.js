@@ -1,3 +1,4 @@
+export const config = { runtime: 'nodejs20.x' };
 import { pool } from '../lib/db.js';
 import { requireAuth } from '../lib/auth.js';
 import { ok, error, getLimit, unbase64, base64 } from '../lib/utils.js';
