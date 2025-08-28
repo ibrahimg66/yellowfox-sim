@@ -1,6 +1,10 @@
 {
-  "functions": { "api/**/*": { "runtime": "nodejs18.x" } },
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
   "routes": [
-    { "src": "/openapi", "dest": "openapi.yaml" }
+    { "src": "^/openapi$", "dest": "/openapi.yaml" }
   ]
 }
