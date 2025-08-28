@@ -1,0 +1,12 @@
+{
+  "name": "yellowfox-sim",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "pg": "^8.11.3",
+    "jsonwebtoken": "^9.0.2",
+    "undici": "^6.19.8"
+  }
+}
