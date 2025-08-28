@@ -1,3 +1,4 @@
+export const config = { runtime: 'nodejs20.x' };
 import { issueToken } from '../../lib/auth.js';
 
 export default async function handler(req, res) {
